@@ -7,3 +7,14 @@ One error that took me a while to figure out turned out to simpy be a typo on my
 Code: school_spending_df['Spending Ranges (Per Student)'] = pd.cut(per_school_capita, spending_bins, labels=spending_labels)
 
 All numbers match the expected output.
+
+Lastly, I received this error message when I attempted my third command line commit using git push. I do not know why it won't work as my first and second pushes worked with no problems.
+
+To https://github.com/crainsk269/UPENN_DSBC_Pandas_Challenge.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/crainsk269/UPENN_DSBC_Pandas_Challenge.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
